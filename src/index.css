@@ -1,11 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans';
+  height: 100vh;
+  
+  
  
+}
+
+@media screen and (min-width:568px){
+  body{
+    background: #F7FAFD;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+  }
 }
 
 
 
+
+.container{
+  width: 730px;
+  border-radius: 10px;
+}
 
