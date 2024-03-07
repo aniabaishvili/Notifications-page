@@ -1,6 +1,83 @@
 
 .container{
     background-color: white;
+    width: 100%;
 
 }
+img{
+    width:39px;
+    height:39px;
+}
 
+.notif-div div{
+    width:343px;
+    height: 83px;
+    display: flex;
+    margin: auto;
+}
+.notif-text{
+    padding-left: 10px;
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-size: 13px;
+}
+
+#author{
+    color: #1C202B;
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 18px;
+
+}
+#image{
+    width:39px;
+    height:39px;
+    display: inline;
+}
+
+
+
+#time{
+    color: #939CAD;
+}
+img{
+    display: none;
+}
+ 
+
+@media screen and (min-width:568px){
+    img{
+        width:45px;
+        height:45px;
+        border-style: none;
+       display: flex;
+       float: right;
+       padding-bottom: 10px;
+    }
+    
+    .notif-div div{
+        display: flex;
+        width: 630px;
+        margin: auto;
+        
+    }
+    
+    p{
+       margin: 10px;
+       width: 100%;
+    }
+    #image{
+        
+       display: flex;
+       align-items: end;
+    }
+    
+    #time{
+        margin-left: 0px;
+    }
+
+   
+}

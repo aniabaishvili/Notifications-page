@@ -1,0 +1,54 @@
+[
+    {
+        "author": "Mark Webber",
+        "time":"1m ago",
+        "type": "Reacted to your recent post",
+        "content": "My first tournament today!",
+        "read": false
+    },
+    {
+        "author": "Angela Gray",
+        "time":"5m",
+        "type": "Followed you",
+        "content": "",
+        "read": false
+    },
+    {
+        "author": "Jacob Thompson",
+        "time":"1 day ago",
+        "type": "has joined your group",
+        "content": "Chess Club",
+        "read": false
+    },
+    {
+        "author": "Rizky Hasanuddin",
+        "time":"5 days ago",
+        "type": "sent you a private message",
+        "content": "Hello,thanks for setting up 5 the Chess Club.I've been a member for a few weeks now and I'm already days having lots of fun and improving my game",
+        "read": true
+    },
+    {
+        "author": "Kimberly Smith",
+        "time":"1 week ago",
+        "type": "commented on your picture",
+        "content": "./assets/image-chess.webp",
+        "read": true
+        
+    },
+    {
+        "author": "Nathan Peterson",
+        "time":"2 weeks ago",
+        "type": "Reacted to your recent post",
+        "content": "5 end-game strategies to increase your win rate",
+        "read": true
+    },
+    {
+        "author": "Anna Kim",
+        "time":"2 weeks ago",
+        "type": "Left the group",
+        "content": "Chess Club",
+        "read": true
+        
+      
+    }
+]

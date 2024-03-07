@@ -15,18 +15,19 @@ body {
   body{
     background: #F7FAFD;
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
 
   }
+  .container{
+    width: 730px;
+    border-radius: 10px;
+  }
+  
 }
 
 
 
 
-.container{
-  width: 730px;
-  border-radius: 10px;
-}
+
 
