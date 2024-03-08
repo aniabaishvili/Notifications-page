@@ -10,12 +10,12 @@ function App() {
   return (
    <div className='container'>
     <Header/>
-    <div className='notif-div'>
+    <div className="notif-div">
       {userData.map((item) => {
         return(
           <div>
           <img id="image"src={`./assets/avatar-${item.author.replace(" ", "-").toLocaleLowerCase()}.webp`}/>
-          <div>
+          <div style={item.read ? {} : read.read}>
           <p className='notif-text'>
             <span id="author">{item.author}</span>
             {" "}
@@ -54,6 +54,13 @@ function App() {
 const styles ={
   type: {
   color: "#5E6778",
+  }
+}
+
+const read = {
+  read:{
+    backgroundColor:"#F7FAFD",
+    borderRadius:"10px",
   }
 }
 
