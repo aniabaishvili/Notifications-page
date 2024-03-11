@@ -24,6 +24,11 @@ img{
     padding-top: 5px;
     margin: 0;
 }
+
+#author:hover{
+    color: #0A327B;
+    cursor: pointer;
+}
 p{
     margin: 0;
     font-size: 13px;
@@ -49,7 +54,20 @@ p{
     color: #939CAD;
 }
 img{
+    /* display: none;
+    display: flex;
+    float: right; */
     display: none;
+    
+}
+
+/* .badge{
+    width:20px;
+    height:20px;
+} */
+#content:hover{
+    color: #0A327B;
+    cursor: pointer;
 }
  
 
@@ -67,6 +85,7 @@ img{
         display: flex;
         width: 630px;
         margin: auto;
+        height:83px;
         
     }
     

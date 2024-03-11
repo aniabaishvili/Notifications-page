@@ -37,3 +37,8 @@
 
 
 }
+
+.marking:hover{
+    color: #0A327B;
+    cursor: pointer;
+}
