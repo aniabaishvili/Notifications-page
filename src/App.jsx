@@ -101,7 +101,7 @@ const bg = {
        paddingLeft: '10px',
        color: 'rgb(94, 103, 120)',
        fontSize: '1rem',
-       fontWeight:' 500',
+       fontWeight:' 700',
        lineHeight: '1.25rem',
   }
 
@@ -109,7 +109,7 @@ const bg = {
   bg:{
     color:'#5E6778',
     fontSize:'12px',
-    fontWeight:'500',
+    fontWeight:'600',
     
     }
 }
