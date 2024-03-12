@@ -3,13 +3,6 @@ import './App.css'
 import Header from './components/Header/Header'
 import data from '../src/components/data.json'
 
-const markAsRead = () => {
-  const clone = userData.map(item => {
-    item.read = true;
-    return item;
-  })
-  console.log(clone);
-}
 
 
 
@@ -18,15 +11,22 @@ const markAsRead = () => {
 function App() {
   const [userData, setUserData] = useState(data)
 
-
+  const markAsRead = () => {
+    const clone = userData.map(item => {
+      item.read = true;
+      return item;
+    })
+    setUserData([...clone])
+  }
+  
   return (
   
    <div className='container'>
-    <Header/>
+    <Header userData={userData} markAsRead={markAsRead} />
     <div  className="notif-div">
-      {userData.map((item) => {
+      {userData.map((item,index) => {
         return(
-          <div>
+          <div key={index}>
           <img id="image"src={`./assets/avatar-${item.author.replace(" ", "-").toLocaleLowerCase()}.webp`}/>
           <div style={item.read ? {} : read.read}> {}
           
@@ -60,7 +60,7 @@ function App() {
                     {item.read === false ? <span style={circle.circle}>...</span>
                     : null}
                    
-            <p id='time'>{item.time}</p>
+                   <p id='time'>{item.time}</p>
           </p>
           
           </div>
