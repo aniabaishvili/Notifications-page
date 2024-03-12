@@ -90,7 +90,7 @@ const read = {
   }
 }
 const bg = {
-  '@media (min-width: 768px)':{
+  '@media (min-width: 568px)':{
   bg:{
     // backgroundColor: '#E5EFFA',
     // backgroundClip:' initial',
