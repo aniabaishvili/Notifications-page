@@ -110,7 +110,7 @@ const bg = {
     color:'#5E6778',
     fontSize:'12px',
     fontWeight:'500',
-    border:' 1px solid #DDE7EE',
+    
     }
 }
 
